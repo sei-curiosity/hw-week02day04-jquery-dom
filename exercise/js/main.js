@@ -14,9 +14,11 @@
  * When, button 1 is clicked, select all paragraphs on the page with jQuery, and changed the font color to blue.
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
-
 function question1() {
 	// your answer here
+	$(function(){
+		$('p').css('color','blue')
+	})
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +31,9 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$(function(){
+		$('h2').text('Ahmed');
+	})
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +47,9 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$(function(){
+		$('.falseFact').text('True Fact');
+	})
 }
 
 $("#button3").on('click', question3);
@@ -56,6 +64,14 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question4(){
+	$(function(){
+		$('body').css('background','pink');
+	})
+}
+
+$("#button4").on('click', question4);
+
 
 /**
  * Question 5:
@@ -63,6 +79,13 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question5(){
+	$(function(){
+		$('h2').css('color','green');
+	})
+}
+
+$("#button5").on('click', question5);
 
 /**
  * Question 6:
@@ -70,6 +93,13 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question6(){
+	 $(function(){
+		 $('blockquote').html('<span>no quote</span>')
+	 })
+}
+
+$("#button6").on('click', question6);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +111,13 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question7(){
+	 $(function(){
+		 $('header h1').text('jQuery Ninja')
+	 })
+}
+
+$("#button7").on('click', question7);
 
 /**
  * Question 8:
@@ -89,6 +126,13 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question8(){
+	 $(function(){
+		$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+	 })
+}
+
+$("#button8").on('click', question8);
 
 /**
  * Question 9:
@@ -96,6 +140,16 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question9(){
+	$(function(){
+		$('p').css({
+			color: 'blue',
+			fontFamily: 'Georgia'
+		})
+	})
+}
+
+$("#button9").on('click', question9);
 
 /**
  * Question 10:
@@ -104,5 +158,12 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question10(){
+	$(function(){
+		$("p").css({color: "blue", fontFamily: "Georgia"})
+	})
+}
+
+$("#button10").on('click', question10);
 
 
