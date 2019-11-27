@@ -134,8 +134,8 @@ $("#button9").on('click', question9);
 
 // your answer here
 
-// function question10(){
-// 	$("p").css({"color": "blue","font-family":"Georgia"})
-// }
-$("#button10").on('click', 	$("p").css({"color": "blue","font-family":"Georgia"}));
+function question10(){
+	$("p").css({"color": "blue","font-family":"Georgia"})
+}
+$("#button10").on('click', 	question10;
 
