@@ -17,6 +17,7 @@
 
 function question1() {
 	// your answer here
+	$("p").css("color", "blue")
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +30,7 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$("h2").text("Abdullah Alruwaybiah");
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +44,7 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$(".falseFact").text("True Fact");
 }
 
 $("#button3").on('click', question3);
@@ -56,6 +59,10 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question4(){
+
+	$('body').css('backgroundColor','pink')
+} 
 
 /**
  * Question 5:
@@ -63,6 +70,10 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question5(){
+
+	$('h2').css('Color','green')
+} 
 
 /**
  * Question 6:
@@ -70,6 +81,11 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question6(){
+
+	$('blockquote').html('<span>no quotes</span>')
+} 
+
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +97,10 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question7(){
+
+	$('header h1').text('jQuery Ninja')
+} 
 
 /**
  * Question 8:
@@ -89,6 +109,10 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question9(){
+
+	$(".city").attr("src", "http://lorempixel.com/g/500/400/food")
+} 
 
 /**
  * Question 9:
@@ -105,4 +129,11 @@ $("#button3").on('click', question3);
 
 // your answer here
 
+function question10(){
+
+	$("p").css({
+		color: "blue",
+		 attribute: "Georgia"
+		})
+} 
 
