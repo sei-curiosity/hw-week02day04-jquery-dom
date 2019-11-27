@@ -1,3 +1,75 @@
+$(function(){
+	$("header h3").css({
+		color:"red"
+	})
+	$("header h1").css({
+		color:"blue"
+	})	
+	$("header h2").css({
+		color:"green"
+	})
+	$("body > header > p").css({
+		color:"orange"
+	})
+	$("#button1").css({
+		background: "red"
+	})
+	$("#button2").css({
+		background: "green"
+	})
+	$("#button3").css({
+		background: "yellow"
+	})
+	$("#button4").css({
+		background: "brown"
+	})
+	$("#button5").css({
+		background: "gold"
+	})
+	$("#button6").css({
+		background: "white"
+	})
+	$("#button7").css({
+		background: "gray"
+	})
+	$("#button8").css({
+		background: "darkblue"
+	})
+	$("#button9").css({
+		background: "darkgray"
+	})
+	$("#button1").css({
+		background: "red"
+	})
+	$("body > div > h2:nth-child(1)").css({
+		color:"lightgreen"
+	})
+	$("body > div > p:nth-child(2)").css({
+		color:"#f7020f"
+	})
+	$("body > div > p:nth-child(4)").css({
+		color:"#f5cdb8"
+	})
+	$("blockquote").css({
+		color:"#de926a"
+	})
+	$("body > div > p:nth-child(6)").css({
+		color:"#dbcc25"
+	})
+	$("ol").css({
+		color: "#31b7f5"
+	})
+	$("body > div > h2:nth-child(8)").css({
+		color:"#ac1dbf"
+	})
+	$("body > div > p:nth-child(9)").css({
+		color:"#5398a6"
+	})
+})
+
+
+
+
 /**
  * Javascript/jQuery Exercises: Selecting Things In The DOM!
 * Answer the following questions. This practice set gets progressively harder.
@@ -17,6 +89,9 @@
 
 function question1() {
 	// your answer here
+	$("p").css({
+		color:"red"
+	})
 }
 
 $("#button1").on('click', question1);
@@ -29,6 +104,7 @@ $("#button1").on('click', question1);
 
 function question2(){
 	// your answer here
+	$("h2").text("Mohammed")
 }
 
 $("#button2").on('click', question2);
@@ -42,6 +118,7 @@ $("#button2").on('click', question2);
 
 function question3(){
 	// your answer here
+	$("ol .falseFact").text("True Fact")
 }
 
 $("#button3").on('click', question3);
@@ -56,6 +133,13 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question4(){
+	$("body").css({
+		background:"pink"
+	})
+}
+
+$("#button4").on('click', question4);
 
 /**
  * Question 5:
@@ -63,6 +147,13 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question5(){
+	$("h2").css({
+		color:"green"
+	})
+}
+
+$("#button5").on('click', question5);
 
 /**
  * Question 6:
@@ -70,6 +161,11 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question6(){
+	$("blockquote").text("<span>no quote</span>")
+}
+
+$("#button6").on('click', question6);
 
 ///////////////////////////////////////////////////////////////////////////////////////
 // SECTION 3: This section is more difficult. Try your hand at the next 3 questions. //
@@ -81,6 +177,11 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+ function question7(){
+	$("header h1").text("jQuery Ninja")
+}
+
+$("#button7").on('click', question7);
 
 /**
  * Question 8:
@@ -89,14 +190,24 @@ $("#button3").on('click', question3);
  */
 
  // your answer here
+function question8(){
+	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
 
+}
+$("#button8").on('click', question8)
 /**
  * Question 9:
  * When button 9 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  */
 
 // your answer here
-
+function question9(){
+	$("p").css({
+		color:"blue",
+		fontFamily:"Georgia"
+	})
+}
+$("#button9").on('click', question9)
 /**
  * Question 10:
  * When button 10 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
@@ -104,5 +215,9 @@ $("#button3").on('click', question3);
  */
 
 // your answer here
+function question10(){
+	$("p").css({color: "blue", fontFamily: "Georgia"})
+}
+$("#button10").on('click', question10)
 
 
