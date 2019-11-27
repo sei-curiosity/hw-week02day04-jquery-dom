@@ -106,3 +106,92 @@ $("#button3").on('click', question3);
 // your answer here
 
 
+$(function(){
+	$("header h3").css({color:"red"})
+})
+
+$(function(){
+	$("header h1").css({color:"#fcba03"})
+})
+
+$(function(){
+	$("header h2").css({color:"#fc2803"})
+})
+
+$(function(){
+	$("header p").css({color:"#03fca5"})
+})
+
+$(function(){
+	$("#button1 p").css({color:"#03fcfc"})
+})
+
+
+$(function(){
+	$("#button2 p").css({color:"#0390fc"})
+})
+
+$(function(){
+	$("#button3 p").css({color:"#2d03fc"})
+})
+
+$(function(){
+	$("#button4 p").css({color:"#6b03fc"})
+})
+
+$(function(){
+	$("#button5 p").css({color:"#8a71ad"})
+})
+
+$(function(){
+	$("#button6 p").css({color:"#4d3d63"})
+})
+
+$(function(){
+	$("#button7 p").css({color:"#5e3a50"})
+})
+
+$(function(){
+	$("#button8 p").css({color:"#5e3a42"})
+})
+
+$(function(){
+	$("#button9 p").css({color:"#806262"})
+})
+
+$(function(){
+	$("#button10 p").css({color:"#73807a"})
+})
+
+$(function(){
+	$(".wrapper h2").css({color:"#484a49"})
+})
+
+$(function(){
+	$(".wrapper .p1").css({color:"#77b071"})
+})
+
+$(function(){
+	$(".wrapper .p2").css({color:"#9cb071"})
+})
+
+$(function(){
+	$("blockquote").css({color:"#b0b071"})
+})
+
+$(function(){
+	$(".wrapper .p3").css({color:"#b09371"})
+})
+
+
+$(function(){
+	$(".ol").css({color:"#945913"})
+})
+
+$(function(){
+	$(".wrapper .p3").css({color:"#8c2a06"})
+})
+
+$(function(){
+	$(" .p4").css({color:"#8c1806"})
+})
