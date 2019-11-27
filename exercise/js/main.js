@@ -15,10 +15,11 @@
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
 
-function question1() {
-	// your answer here
-}
-
+function question1() {  
+	$('#button1').css({
+		color: "blue"
+	})
+  }
 $("#button1").on('click', question1);
 
 /**
@@ -28,7 +29,9 @@ $("#button1").on('click', question1);
  */
 
 function question2(){
-	// your answer here
+	$('#button2').css({
+	color: "red"
+})
 }
 
 $("#button2").on('click', question2);
@@ -41,7 +44,9 @@ $("#button2").on('click', question2);
  */
 
 function question3(){
-	// your answer here
+	$('#button3').css({
+		color: "yellow"
+	})
 }
 
 $("#button3").on('click', question3);
@@ -55,14 +60,26 @@ $("#button3").on('click', question3);
  * When button 4 is clicked, change the background color of the whole page to "pink"
  */
 
-// your answer here
+function question4(){
+	$('#button4 ').css({
+	color: "pink"
+	})
+}
+
+$("#button4").on('click', question4);
 
 /**
  * Question 5:
  * When button 5 is clicked, change the color of all h2's to "green"
  */
 
-// your answer here
+function question5(){
+	$('#button5').css({
+	color: "green"
+	})
+}
+
+$("#button5").on('click', question5);
 
 /**
  * Question 6:
