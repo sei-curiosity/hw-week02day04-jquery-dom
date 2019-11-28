@@ -1,3 +1,43 @@
+$(function(){
+    $('.redn').css({
+        color: 'red',
+        fontWeight: 'bold'
+    })
+})
+$(function(){
+    $('.bbrn').css({
+        color: 'brown',
+        fontWeight: 'bold'
+    })
+})
+$(function(){
+    $('.blun').css({
+        color: 'blue',
+        fontWeight: 'bold'
+    })
+})
+$(function(){
+    $('.actions').on('click',function(){
+		console.log(this)
+		$(this).css('color','red')
+	})
+})
+$(function(){
+    $('h2').css({
+        color: 'green',
+        fontWeight: 'bold'
+    })
+})
+$(function(){
+	$('h1').css({
+		color:'#315D96'
+	})
+})
+$(function(){
+	$('blockquote').css({
+		color: '#83C77C'
+	})
+})
 /**
  * Javascript/jQuery Exercises: Selecting Things In The DOM!
 * Answer the following questions. This practice set gets progressively harder.
