@@ -15,11 +15,13 @@
  * We've started you off, ONLY replace everything instance of "replaceMe" with correct code.
  */
 
-function question1() {
-	// your answer here
-}
+ $(function(){
+	$('.wrapper').css('color','red')
+})
 
-$("#button1").on('click', question1);
+$('#button1').click(function(){
+$(this).toggleClass('clicked');
+});
 
 /**
  * Question 2:
