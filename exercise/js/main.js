@@ -106,3 +106,24 @@ $("#button3").on('click', question3);
 // your answer here
 
 
+$(document).ready(function(){
+	  $("body > div > p:nth-child(2)").css({color:'red'});
+	});
+
+	$(document).ready(function(){
+		$("body > div > p:nth-child(3)").css({color:'green'});
+	  });
+
+
+	  $(document).ready(function(){
+		$("body > div > p:nth-child(4)").css({color:'yellow'});
+	  });
+
+
+	  $(document).ready(function(){
+		$("body > div > p:nth-child(6)").css({color:'brown'});
+	  });
+
+	  $(document).ready(function(){
+		$("body > div > p:nth-child()").css({color:'red'});
+	  });
